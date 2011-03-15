@@ -72,3 +72,4 @@
 #require_recipe "mysql_administrative_tools"
 
 require_recipe "gollum"
+require_recipe "rubygems"
