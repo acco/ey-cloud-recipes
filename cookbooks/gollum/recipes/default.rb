@@ -11,5 +11,5 @@ execute "generate static files" do
 end
 
 execute "start gollum server" do
-  command "cd /data/ey_wiki/current/ && gollum-site server --port 80"
+  command "cd /data/ey_wiki/current/ && sudo gollum-site server --port 80"
 end  
