@@ -71,6 +71,6 @@ require_recipe 'nginx'
 # additional configuration of this recipe is required
 #require_recipe "mysql_administrative_tools"
 
-require_recipe "gollum"
+# require_recipe "gollum"
 require_recipe "rubygems"
 # require_recipe "redis"
