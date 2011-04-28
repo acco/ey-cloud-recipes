@@ -62,7 +62,7 @@
 #uncomment to include the eybackup_verbose recipe
 #require_recipe "eybackup_verbose"
 
-#require_recipe 'nginx'
+require_recipe 'nginx'
 
 #uncomment to include the mysql_replication_check recipe
 #require_recipe "mysql_replication_check"
@@ -73,3 +73,4 @@
 
 require_recipe "gollum"
 require_recipe "rubygems"
+# require_recipe "redis"
