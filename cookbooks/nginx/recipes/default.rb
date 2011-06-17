@@ -6,3 +6,7 @@ remote_file "/etc/nginx/servers/EY_Documentation.conf" do
   backup false
   action :create
 end
+
+execute "restart nginx" do
+  command "/etc/init.d/nginx restart"
+end
