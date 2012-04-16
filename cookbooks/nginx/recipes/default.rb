@@ -1,8 +1,8 @@
-remote_file "/etc/nginx/servers/EY_Documentation.conf" do
+remote_file "/etc/nginx/servers/simple_chef.conf" do
   owner "root"
   group "root"
   mode 0755
-  source "EY_Documentation.conf"
+  source "simple_chef.conf"
   backup false
   action :create
 end
